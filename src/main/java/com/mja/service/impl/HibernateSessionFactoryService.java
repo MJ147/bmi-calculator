@@ -11,7 +11,7 @@ public class HibernateSessionFactoryService implements IHibernateSessionFactoryS
 
     private SessionFactory sessionFactory;
 
-    public HibernateSessionFactoryService(SessionFactory sessionFactory) {
+    public HibernateSessionFactoryService() {
         this.sessionFactory = new Configuration().configure().buildSessionFactory();
     }
 
