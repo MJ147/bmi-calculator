@@ -6,7 +6,9 @@ import com.mja.service.IHibernateSessionFactoryService;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class BmiDAOImpl implements IBmiDAO {
 
     @Autowired

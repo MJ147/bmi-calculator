@@ -4,7 +4,9 @@ import com.mja.dao.IBmiDAO;
 import com.mja.model.Bmi;
 import com.mja.service.IBmiService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BmiServiceImpl implements IBmiService {
 
     @Autowired
