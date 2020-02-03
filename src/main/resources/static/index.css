@@ -1,0 +1,32 @@
+#header {
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+    margin: 20px;
+    padding: 5px;
+}
+.text-box {
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+}
+#bmi-form {
+    text-align: center;
+}
+#bmi-form input[type=submit] {
+    background: white;
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+#bmi-form input[type=submit]:hover {
+    background-color: blue;
+    color: white;
+}
