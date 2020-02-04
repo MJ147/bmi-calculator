@@ -34,6 +34,13 @@ public class BmiController {
         return "result";
     }
 
+    @RequestMapping(value = "/allRecords", method = RequestMethod.GET)
+    public String getAllBmi(Model model) {
+        model.addAttribute("bmiList", this.bmiService.getAllBims());
+        model.addAttribute("averageBmi", this.bmiService.calculateAverageBmi());
+        return "allResult";
+    }
+
     private double calculateBmi(int weight, int height) {
         double bmi = ((double) weight)
                 /(((double) height)*((double) height));
