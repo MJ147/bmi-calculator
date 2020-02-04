@@ -30,3 +30,26 @@
     background-color: blue;
     color: white;
 }
+
+#find-button {
+    padding: 5px 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.find-button {
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+
+.find-button:hover {
+    background-color: blue;
+    color: white;
+}
